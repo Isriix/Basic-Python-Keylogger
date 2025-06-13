@@ -20,7 +20,7 @@ Make sure Python is installed, then install the required package using the comma
 python -m pip install pynput
 ```
 Then save the following code as keylogger.py and run it:
-```
+```python
 # Import the keyboard listener module from pynput
 from pynput import keyboard
 
@@ -51,3 +51,7 @@ if __name__ == "__main__":
 ```
 # Disclaimer
 This project is for educational purposes only. Using keyloggers without explicit permission is illegal and unethical. Always ensure you have proper consent before running this or similar software on any device.
+
+
+
+
